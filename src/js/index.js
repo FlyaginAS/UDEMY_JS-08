@@ -1,3 +1,2 @@
-// Global app controller
-import x from './test';
-console.log(`this ${x} from index.js`);
+import * as search from '../models/Search';
+console.log(search.add(2, 5));
