@@ -1,2 +1,2 @@
 console.log('hellow from module');
-export default 23;
+export default 5555555;
