@@ -7,6 +7,12 @@
     "sourceType": "module"
   },
   "rules": {
+    "node/no-unsupported-features/es-syntax": [
+      "error",
+      {
+        "ignores": ["modules"]
+      }
+    ],
     "prettier/prettier": "off",
     "spaced-comment": "off",
     "no-console": "warn",
