@@ -12,7 +12,7 @@ const state = {};
 const controlSearch = async () => {
   //1)Get query from view
   const query = searchView.getInput();
-  console.log(query);
+
   if (query) {
     //2) new search object and add to state
     state.search = new Search(query);
